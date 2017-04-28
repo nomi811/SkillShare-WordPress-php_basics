@@ -8,13 +8,11 @@
 
     <?php
 
-      function myFunction() {
-        $user = "Nomi";
-        $posts = 5;
-        echo "$user has $posts posts";
+      function multiplyNumbers($a, $b) {
+        echo $a * $b;
       }
 
-      myFunction();
+      multiplyNumbers(12, 2);
 
     ?>
 
