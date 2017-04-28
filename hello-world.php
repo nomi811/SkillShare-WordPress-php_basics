@@ -8,10 +8,14 @@
 
     <?php
 
-      $number = 10;
+      $number = 13;
 
-      if($number > 5) {
-        echo "Statement is true";
+      if($number < 10) {
+        echo "Number is less than 10";
+      } elseif($number == 10) {
+        echo "Number is 10";
+      } else {
+        echo "Number is not less or equal to 10";
       }
 
     ?>
