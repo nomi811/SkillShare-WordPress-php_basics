@@ -8,11 +8,12 @@
 
     <?php
 
-      function multiplyNumbers($a, $b) {
-        echo $a * $b;
-      }
+      $loggedIn = true;
+      $user = "Nomi";
 
-      multiplyNumbers(12, 2);
+      if($loggedIn) {
+        echo "Welcome Back, " . $user;
+      }
 
     ?>
 
