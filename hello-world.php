@@ -7,12 +7,16 @@
   <body>
 
     <?php
-      echo "This is a string<br>";
-      echo 'This is also a "string"<br>';
-      echo strrev ("This is a string");
-      echo strtoupper ("This is a string");
-      echo strtolower ("This is a String");
+      $number1 = 10;
+      $number2 = 20;
 
+      echo $number1;
+      echo $number1 + $number2;
+
+      $posts = 7;
+      $name = "Chris";
+
+      echo "$name has $posts posts</br>";
 
     ?>
 
