@@ -2,20 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?php echo "Hello World" ?></title>
+    <title>Strings, Variables, Constants</title>
   </head>
   <body>
 
     <?php
-      // DISPLAY HELLO WORLD TO THE BROWSER
-      echo "<h1>Hello World</h1>";
-        echo "<h2>Hello World</h2>";
+      echo "This is a string<br>";
+      echo 'This is also a "string"<br>';
+      echo strrev ("This is a string");
+      echo strtoupper ("This is a string");
+      echo strtolower ("This is a String");
 
-      /*
-      echo "Hello World";
-      echo "Hello World";
-      echo "Hello World";
-      */
 
     ?>
 
