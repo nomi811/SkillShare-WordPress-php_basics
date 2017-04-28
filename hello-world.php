@@ -11,7 +11,7 @@
 
 
       $shapes = array("square", "circle", "triangle");
-      echo $shapes[1];
+      echo count($shapes);
     ?>
 
   </body>
