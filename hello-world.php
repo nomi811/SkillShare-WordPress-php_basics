@@ -8,8 +8,11 @@
 
     <?php
 
-      $numbers = array(1, 56, 43, 67);
-      echo min($numbers);
+      function myFunction() {
+        echo "my first function";
+      }
+
+      myFunction();
 
     ?>
 
