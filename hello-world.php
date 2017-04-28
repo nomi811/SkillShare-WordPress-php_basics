@@ -7,10 +7,8 @@
   <body>
 
     <?php
-      $number1 = 10;
-      $number1 = 20;
-
-      echo $number1;
+      define("NAME", "Nomi");
+      echo NAME;
     ?>
 
   </body>
