@@ -11,7 +11,8 @@
 
 
       $shapes = array("square", "circle", "triangle");
-      echo count($shapes);
+      $lastShape = array_pop($shapes);
+      echo $lastShape;
     ?>
 
   </body>
