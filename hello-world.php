@@ -7,11 +7,10 @@
   <body>
 
     <?php
-      $shapes = array();
-      $shapes[0] = "square";
-      $shapes[1] = "circle";
-      $shapes[2] = "triangle";
 
+
+
+      $shapes = array("square", "circle", "triangle");
       echo $shapes[1];
     ?>
 
