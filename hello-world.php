@@ -9,7 +9,9 @@
     <?php
 
       function myFunction() {
-        echo "my first function";
+        $user = "Nomi";
+        $posts = 5;
+        echo "$user has $posts posts";
       }
 
       myFunction();
