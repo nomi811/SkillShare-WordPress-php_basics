@@ -9,7 +9,7 @@
     <?php
 
       $numbers = array(1, 56, 43, 67);
-      echo max($numbers);
+      echo min($numbers);
 
     ?>
 
