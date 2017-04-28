@@ -8,11 +8,10 @@
 
     <?php
 
-      $loggedIn = true;
-      $user = "Nomi";
+      $number = 10;
 
-      if($loggedIn) {
-        echo "Welcome Back, " . $user;
+      if($number > 5) {
+        echo "Statement is true";
       }
 
     ?>
