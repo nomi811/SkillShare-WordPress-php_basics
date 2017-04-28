@@ -7,10 +7,10 @@
   <body>
 
     <?php
-      $number1 = 100;
-      $number2 = 200;
+      $number1 = 10;
+      $number2 = 3;
 
-      echo $number1 / $number2
+      echo $number1 % $number2
     ?>
 
   </body>
