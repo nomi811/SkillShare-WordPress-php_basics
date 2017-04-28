@@ -8,16 +8,9 @@
 
     <?php
       $number1 = 10;
-      $number2 = 20;
+      $number1 = 20;
 
       echo $number1;
-      echo $number1 + $number2;
-
-      $posts = 7;
-      $name = "Chris";
-
-      echo "$name has $posts posts</br>";
-
     ?>
 
   </body>
