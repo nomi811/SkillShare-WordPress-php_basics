@@ -8,11 +8,9 @@
 
     <?php
 
+      $numbers = array(1, 56, 43, 67);
+      echo max($numbers);
 
-
-      $shapes = array("square", "circle", "triangle");
-      $lastShape = array_pop($shapes);
-      echo $lastShape;
     ?>
 
   </body>
