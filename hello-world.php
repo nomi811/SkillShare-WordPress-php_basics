@@ -9,10 +9,11 @@
     <?php
       $number = 1;
 
-      while($number < 10) {
-        echo "Number $number is less than 10<br>";
+      do {
+        echo "$number<br>";
         $number++;
       }
+      while($number < 10)
 
     ?>
 
