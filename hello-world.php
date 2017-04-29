@@ -7,12 +7,11 @@
   <body>
 
     <?php
-      for($number = 0; $number <= 5; $number++) {
-        echo "Number $number<br>";
+      $shapes = array("square", "circle", "triangle");
+
+      foreach ($shapes as $value) {
+        echo "$value<br>";
       }
-
-
-
     ?>
 
   </body>
