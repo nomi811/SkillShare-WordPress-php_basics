@@ -2,17 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Strings, Variables, Constants</title>
+    <title>Switch statements</title>
   </head>
   <body>
 
     <?php
+      $favoriteFood = "Pizza";
 
-      $number1 = 8;
-      $number2 = 10;
+      switch ($favoriteFood) {
+        case "Curry":
+          echo "I Love Curry";
+          break;
 
-      if($number1 == 5 || $number2 == 10) {
-        echo "Statement is true";
+        case "Chinese":
+          echo "I Love Chinese";
+          break;
+
+        case "Pizza":
+          echo "I Love Pizza";
+          break;
+
+          default:
+            echo "I don't know!";
       }
 
     ?>
