@@ -7,13 +7,11 @@
   <body>
 
     <?php
-      $number = 1;
-
-      do {
-        echo "$number<br>";
-        $number++;
+      for($number = 0; $number <= 5; $number++) {
+        echo "Number $number<br>";
       }
-      while($number < 10)
+
+
 
     ?>
 
